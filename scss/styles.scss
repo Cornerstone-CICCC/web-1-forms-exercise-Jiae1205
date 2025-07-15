@@ -12,3 +12,37 @@ form {
   max-width: 600px;
   margin: 20px auto;
 }
+
+legend {
+  border: 1px solid black;
+  border-radius: .5rem;
+  padding: 0 .5rem;
+}
+
+fieldset {
+  margin: .5rem;
+}
+
+.field {
+  margin: .5rem;
+  display: fixed;
+  justify-content: space-between;
+  direction: row;
+  align-items: center;
+}
+
+#name, #email, #password, #DateOfBirth, #color, #method, #bio, #file {
+  display: block;
+  width: 100%;
+  height: 1.5rem;
+  border-radius: .3rem;
+}
+
+button {
+  background-color: rgb(72, 112, 255);
+  color: white;
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: .3rem;
+  border: rgb(72, 112, 255);
+}
